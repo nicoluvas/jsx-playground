@@ -1,4 +1,6 @@
 import logoIMG from './assets/title.svg'
+import React, { Component } from 'react';
+import './App.css'
 
 function App() {
     return(
@@ -10,20 +12,20 @@ function App() {
                     <span className="login-form-title">Welcome</span>
                     
                     <span className="form-img">
-                        <img src={logoIMG} alt="nicoluvas"/>
+                        <img src={logoIMG} alt="nicoluvas" className=""/>
                     </span>
 
                     <div className="wrap-input">
-                        <input type="email"/>
+                        <input className="input" type="email"/>
                         <span className="focus-input" data-placeholder="Email"></span>
                     </div>
 
                     <div className="wrap-input">
-                        <input type="password"/>
+                        <inpu className="input" type="password"/>
                         <span className="focus-input" data-placeholder="Password"></span>
                     </div>
 
-                    <div className="container-container-logi-form-btn">
+                    <div className="container-container-login-form-btn">
                         <button className="login-form-btn">Confirm</button>
                     </div>
 

@@ -26,5 +26,32 @@
 }
 
 .login-form-title{
+    display: block;
+    font-size: 30px;
+    color: azure;
 
+    line-height:1.2;
+    text-align: center;
+}
+
+.form-img img {
+    width: 90px;
+}
+
+.wrap-input {
+    width: 100%;
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin-bottom: 37px;
+
+}
+
+.input{
+    font-size: 16px;
+    color: white;
+    line-height: 1.2;
+    border: none;
+    display: block;
+
+    width: 100%;
 }
