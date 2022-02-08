@@ -21,7 +21,7 @@ function App() {
                     </div>
 
                     <div className="wrap-input">
-                        <inpu className="input" type="password"/>
+                        <input className="input" type="password"/>
                         <span className="focus-input" data-placeholder="Password"></span>
                     </div>
 
