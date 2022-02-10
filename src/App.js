@@ -25,7 +25,7 @@ function App() {
                         <span className="focus-input" data-placeholder="Password"></span>
                     </div>
 
-                    <div className="container-container-login-form-btn">
+                    <div className="container-login-form-btn">
                         <button className="login-form-btn">Confirm</button>
                     </div>
 
