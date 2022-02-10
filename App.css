@@ -131,6 +131,14 @@
     width: 100%;
 }
 
+.has-val + .focus-input::after{
+    top: -15px;
+}
+
+.has-val + .focus-input::before{
+    width: 100%;
+}
+
 .container-login-form-btn{
     display: flex;
     flex-wrap: wrap;
