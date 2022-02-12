@@ -40,12 +40,16 @@
     font-size: 30px;
     color: azure;
 
-    line-height:1.2;
+    line-height: 1.2;
     text-align: center;
 }
 
-.form-img img {
-    width: 90px;
+.login-form-title img {
+    display: flex;
+    flex-direction: center;
+    width: 400px;
+    margin: 0;
+    left: 50%;
 }
 
 .wrap-input {

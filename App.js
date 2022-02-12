@@ -1,4 +1,4 @@
-import logoIMG from './assets/title.svg'
+import logoIMG from './assets/Banner.png'
 import './App.css'
 import { useState } from 'react'
 
@@ -14,8 +14,8 @@ function App() {
 
                     <span className="login-form-title">Welcome</span>
                     
-                    <span className="form-img">
-                        <img src={logoIMG} alt="nicoluvas" className=""/>
+                    <span className="login-form-title">
+                        <img src={logoIMG} alt="nicoluvas"/>
                     </span>
 
                     <div className="wrap-input">
