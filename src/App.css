@@ -4,32 +4,6 @@
     box-sizing: border-box;
 }
 
-.container {
-    width: 100%;
-    margin: 0 auto;
-}
-
-.container-login {
-    width: 100%;
-    min-height: 100vh;
-
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    padding: 15px;
-    background-color: #111
-}
-
-.wrap-login{
-    width: 390px;
-    background-color: #333;
-    border-radius: 10px;
-    overflow: hidden;
-    padding: 77px 55px 33px 55px;
-
-    box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.2)
-}
 
 .login-form{
     width: 100%;
@@ -40,12 +14,17 @@
     font-size: 30px;
     color: azure;
 
-    line-height:1.2;
+    line-height: 1.2;
     text-align: center;
 }
 
-.form-img img {
-    width: 90px;
+.login-form-title img {
+    display: flex;
+    flex-direction: center;
+    width: 400px;
+    margin: 0;
+    left: 50%;
+    
 }
 
 .wrap-input {
@@ -93,10 +72,10 @@
     -o-transition: all 0.4s;
     -moz-transition: all 0.4s;
 
-    background-color: -webkit-linear-gradient(to left #21d4fd, #b721ff);
-    background-color: -o-linear-gradient(to left #21d4fd, #b721ff);
-    background-color: -moz-linear-gradient(to left #21d4fd, #b721ff);
-    background-color: -webkit-linear-gradient(to left #21d4fd, #b721ff);
+    background: -webkit-linear-gradient(to left, #6321fd, #21d3ff);
+    background: -o-linear-gradient(to left, #6321fd, #21d3ff);
+    background: -moz-linear-gradient(to left, #6321fd, #21d3ff);
+    background: linear-gradient(to left, #6321fd, #21d3ff);
 }
 
 .focus-input::after{
@@ -131,6 +110,14 @@
     width: 100%;
 }
 
+.has-val + .focus-input::after{
+    top: -15px;
+}
+
+.has-val + .focus-input::before{
+    width: 100%;
+}
+
 .container-login-form-btn{
     display: flex;
     flex-wrap: wrap;
@@ -152,4 +139,36 @@
 
     width: 100%;
     height: 50px;
+
+    background: -webkit-linear-gradient(to left, #6321fd, #21d3ff);
+    background: -o-linear-gradient(to left, #6321fd, #21d3ff);
+    background: -moz-linear-gradient(to left, #6321fd, #21d3ff);
+    background: linear-gradient(to left, #6321fd, #21d3ff);
+}
+
+.login-form-btn{
+    cursor: pointer;
+}
+
+.text-align{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 35px;
+}
+
+.text1{
+    font-size: 14px;
+    color: #adadad;
+    line-height: 1.5;
+    padding-right: 5px;
+    text-decoration: none;
+}
+
+.text2{
+    font-size: 14px;
+    color: #6a7dfe;
+    line-height: 1.5;
+    text-decoration: none;
 }
