@@ -1,6 +1,6 @@
-import { Link } from "react-router-dom";
 import { useState } from "react";
-import {LayoutComponents} from "../../components/LayoutComponents";
+import { Link } from "react-router-dom";
+import {LayoutComponents} from '../../components/LayoutComponents'
 
 export const Login = () => {
   const [email, setEmail] = useState("");
