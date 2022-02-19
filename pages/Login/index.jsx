@@ -1,6 +1,6 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
-import {LayoutComponents} from '../../components/LayoutComponents'
+import { useState } from "react";
+import {LayoutComponents} from "../../components/LayoutComponents";
 
 export const Login = () => {
   const [email, setEmail] = useState("");
@@ -37,7 +37,7 @@ export const Login = () => {
 
         <div className="text-align">
           <span className="text1">Don't you have an account?</span>
-          <Link className="text2" to="#">
+          <Link className="text2" to="/register">
             Create one!
           </Link>
         </div>
