@@ -1,4 +1,4 @@
-import "./App.css";
+import "./assets/App.css";
 import { AppRouter } from "./routes";
 
 export const App = () => {
@@ -6,4 +6,3 @@ export const App = () => {
         <AppRouter />
     );
 }
-
