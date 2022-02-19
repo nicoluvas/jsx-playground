@@ -20,7 +20,7 @@ export const Register = () => {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
-            <span className="focus-input" data-placeholder="Email"></span>
+            <span className="focus-input" data-placeholder=" Email"></span>
           </div>
 
           <div className="wrap-input">
@@ -30,7 +30,7 @@ export const Register = () => {
               value={username}
               onChange={(e) => setUName(e.target.value)}
             />
-            <span className="focus-input" data-placeholder="Username"></span>
+            <span className="focus-input" data-placeholder=" Username"></span>
           </div>
   
           <div className="wrap-input">
@@ -40,7 +40,7 @@ export const Register = () => {
               value={password}
               onChange={(e) => setPassword(e.target.value)}
             />           
-            <span className="focus-input" data-placeholder="Password"></span>
+            <span className="focus-input" data-placeholder=" Password"></span>
           </div>
           <div className="wrap-input">
             <input
