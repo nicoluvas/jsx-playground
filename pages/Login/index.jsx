@@ -9,7 +9,7 @@ export const Login = () => {
   return (
     <LayoutComponents>
       <form className="login-form">
-        <span className="login-form-title">Welcome</span>
+        <span className="login-form-title"> Welcome </span>
 
         <div className="wrap-input">
           <input

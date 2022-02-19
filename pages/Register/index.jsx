@@ -5,11 +5,12 @@ import {LayoutComponents} from '../../components/LayoutComponents'
 export const Register = () => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("")
+    const [confpw, setConfpw] = useState("");
 
     return(
         <LayoutComponents>
         <form className="login-form">
-          <span className="login-form-title">Here is the beginning of your journey</span>
+          <span className="login-form-title"> Create an account </span>
   
           <div className="wrap-input">
             <input
@@ -32,10 +33,10 @@ export const Register = () => {
           </div>
           <div className="wrap-input">
             <input
-              className={password !== "" ? "has-val input" : "input"}
+              className={confpw !== "" ? "has-val input" : "input"}
               type="password"
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
+              value={confpw}
+              onChange={(e) => setConfpw(e.target.value)}
             />           
             <span className="focus-input" data-placeholder="Confirm your password"></span>
           </div>
