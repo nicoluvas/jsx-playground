@@ -6,6 +6,7 @@ export const Register = () => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("")
     const [confpw, setConfpw] = useState("");
+    const [username, setUName] = useState("");
 
     return(
         <LayoutComponents>
@@ -19,7 +20,17 @@ export const Register = () => {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
-            <span className="focus-input" data-placeholder="Email"></span>
+            <span className="focus-input" data-placeholder=" Email"></span>
+          </div>
+
+          <div className="wrap-input">
+            <input
+              className={username !== "" ? "has-val input" : "input"}
+              type="text"
+              value={username}
+              onChange={(e) => setUName(e.target.value)}
+            />
+            <span className="focus-input" data-placeholder=" Username"></span>
           </div>
   
           <div className="wrap-input">
@@ -29,7 +40,7 @@ export const Register = () => {
               value={password}
               onChange={(e) => setPassword(e.target.value)}
             />           
-            <span className="focus-input" data-placeholder="Password"></span>
+            <span className="focus-input" data-placeholder=" Password"></span>
           </div>
           <div className="wrap-input">
             <input
@@ -46,9 +57,9 @@ export const Register = () => {
           </div>
   
           <div className="text-align">
-            <span className="text1">Don't you have an account?</span>
-            <Link className="text2" to="/register">
-              Create one!
+            <span className="text1">Already have an account?</span>
+            <Link className="text2" to="/login">
+              Click here!
             </Link>
           </div>
         </form>

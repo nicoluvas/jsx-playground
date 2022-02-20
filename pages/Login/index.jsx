@@ -18,7 +18,7 @@ export const Login = () => {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
-          <span className="focus-input" data-placeholder="Email"></span>
+          <span className="focus-input" data-placeholder=" Email"></span>
         </div>
 
         <div className="wrap-input">
@@ -28,11 +28,13 @@ export const Login = () => {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
-          <span className="focus-input" data-placeholder="Password"></span>
+          <span className="focus-input" data-placeholder=" Password"></span>
         </div>
 
         <div className="container-login-form-btn">
+          <Link className="login-form-btn" to="/home">
           <button className="login-form-btn">Confirm</button>
+          </Link>
         </div>
 
         <div className="text-align">

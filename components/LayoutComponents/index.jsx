@@ -1,4 +1,4 @@
-import './styles.css'
+import "./styles.css";
 
 export const LayoutComponents = (props) => {
     return(
