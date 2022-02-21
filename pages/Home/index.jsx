@@ -5,7 +5,7 @@ export const Home = () => {
   
     return (
       <LayoutComponents>
-        
+        <footer>Test</footer>
       </LayoutComponents>
     );
   };
