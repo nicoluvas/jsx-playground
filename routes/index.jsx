@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Login } from "../pages/Login";
 import { Register } from "../pages/Register";
 import { Home } from "../pages/Home";
+import { Experimental } from "../pages/Experimental";
 
 export const AppRouter = () => {
     return (
@@ -10,6 +11,7 @@ export const AppRouter = () => {
                 <Route path="/login" element={<Login/>} />
                 <Route path="/register" element={<Register/>} />
                 <Route path="/home" element={<Home/>} />
+                <Route path="/experimental" element={<Experimental/>} />
             </Routes>
         </Router>
     )
