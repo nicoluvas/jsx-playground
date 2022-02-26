@@ -4,6 +4,8 @@ import { Register } from "../pages/Register";
 import { Home } from "../pages/Home";
 import { Experimental } from "../pages/Experimental";
 
+// <Route path="/experimental" element={<Experimental/>} />
+
 export const AppRouter = () => {
     return (
         <Router>
