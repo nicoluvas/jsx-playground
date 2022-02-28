@@ -12,9 +12,13 @@ export const Home = () => {
     return (
         
     <div className="home-main">
-        <Link className="home-to-login-btn" to="/login">
-            <button className="home-to-login-btn">Return to login</button>
-        </Link>
+
+        <div className="home-navbar">
+            <Link className="btn-to-login" to="/login">
+                <button className="btn-to-login" >LOG OUT</button>
+            </Link>
+        </div>
+        
         <footer className="home-footer">Test</footer>
     </div>
     );
