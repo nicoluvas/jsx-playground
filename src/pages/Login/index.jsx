@@ -32,7 +32,9 @@ export const Login = () => {
         </div>
 
         <div className="container-login-form-btn">
+          <Link className="login-form-btn" to="/home">
           <button className="login-form-btn">Confirm</button>
+          </Link>
         </div>
 
         <div className="text-align">
