@@ -1,33 +1,21 @@
-
-import '../../assets/App.css'
-import './home.css'
+import "../../assets/App.css";
+import "./home.css";
 
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { MenuItems } from "../../components/Navbar/MenuItems.js";
 
 export const Home = () => {
-  
-    //
+  //
 
-    return (
-        
+  return (
     <div className="home-main">
-    <header className="home-header">
         <nav className="home-navbar">
-            <Link className="btn-to-login" to="/login">
-                <button className="btn-to-login" >LOG OUT</button>
-            </Link>
-            <Link className="btn-to-login" to="/login">
-                <button className="btn-to-login" >LOG OUT</button>
-            </Link>
-            <Link className="btn-to-login" to="/login">
-                <button className="btn-to-login" >LOG OUT</button>
-            </Link>
+            <ul>
+                <li><a className={item.cName}></a></li>
+            </ul>
         </nav>
-    </header>
-        
-        <footer className="home-footer">Test</footer>
+      <footer className="home-footer">Test</footer>
     </div>
-    );
-  };
-  
+  );
+};

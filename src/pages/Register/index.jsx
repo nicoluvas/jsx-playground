@@ -54,7 +54,7 @@ export const Register = () => {
   
           <div className="container-login-form-btn">
             <Link className="login-form-btn" to="/login">
-            <button className="login-form-btn">Confirm</button>
+              <button className="login-form-btn">Confirm</button>
             </Link>
           </div>
   
