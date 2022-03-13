@@ -10,11 +10,11 @@ export const Home = () => {
   return (
     <div className="home-main">
       <header>
-        <img className="logo" src={Banner}></img>
+        <img className="logo" src={Banner} href='https://github.com/nicoluvas'></img>
         <nav>
           <ul className="home-navbar">
             <li><a href="#">Info</a></li>
-            <li><a href="#">Github</a></li>
+            <li><a href="https://github.com/nicoluvas/jsx-playground">Github</a></li>
           </ul>
         </nav>
         <a className="repo-btn" href="#"><button>Log out</button></a>

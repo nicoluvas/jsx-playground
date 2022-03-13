@@ -5,20 +5,16 @@
   background-color: #111;
 }
 
-.logo {
-  width: 10%;
-
-}
-
 li, a, button {
   font-family: 'Licorice', cursive;
   font-family: 'Montserrat', sans-serif;
   font-family: 'Outfit', sans-serif;
-
+  
   font-weight: 500;
   font-size: 16px;
   color: #fff;
   text-decoration: none;
+  list-style: none; 
 }
 
 header {
@@ -27,3 +23,35 @@ header {
   align-items: center;
   padding: 30px 10%;
 }
+
+.logo {
+  width: 16%;
+  cursor: pointer;
+}
+
+.home-navbar li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.home-navbar li a {
+  transition: all 0.3s ease 0s;
+}
+
+.home-navbar li a:hover {
+  color: #0088e9
+}
+
+button {
+  padding: 9px 25px;
+  background-color: rgba(0,136,168,1);
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: rgba(0,136,168,0.5);
+}
+
