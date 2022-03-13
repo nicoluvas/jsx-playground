@@ -2,9 +2,11 @@ import "./home.css";
 
 import Banner from '../../assets/Banner.png';
 
+/*
 import { useState } from "react";
-import { Link } from "react-router-dom";
 import { MenuItems } from "../../components/Navbar/MenuItems.js";
+import { NavLink } from "react-router-dom";
+*/
 
 export const Home = () => {
   return (
@@ -13,6 +15,7 @@ export const Home = () => {
         <img className="logo" src={Banner} href='https://github.com/nicoluvas'></img>
         <nav>
           <ul className="home-navbar">
+            <li><a href='#'>Support</a></li>
             <li><a href="#">Info</a></li>
             <li><a href="https://github.com/nicoluvas/jsx-playground">Github</a></li>
           </ul>
