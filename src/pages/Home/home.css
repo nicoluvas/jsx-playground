@@ -1,11 +1,11 @@
-* {
+.home-main {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   background-color: #111;
 }
 
-li, a, button {
+.home-il, a, .logout-btn {
   font-family: 'Licorice', cursive;
   font-family: 'Montserrat', sans-serif;
   font-family: 'Outfit', sans-serif;
@@ -17,11 +17,11 @@ li, a, button {
   list-style: none; 
 }
 
-header {
+.home-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 10%;
+  padding: 10px 10%;
 }
 
 .logo {
@@ -43,7 +43,7 @@ header {
   color: #0088e9
 }
 
-button {
+.logout-btn {
   margin-left: 30px;
   padding: 9px 25px;
   background-color: rgba(0,136,168,1);
@@ -53,7 +53,7 @@ button {
   transition: all 0.3s ease 0s;
 }
 
-button:hover {
+.logout-btn:hover {
   background-color: rgba(0,136,168,0.5);
 }
 

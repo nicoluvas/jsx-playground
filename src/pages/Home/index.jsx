@@ -1,4 +1,5 @@
 import "./home.css";
+/*import "../../assets/App.css";*/
 
 import Banner from '../../assets/Banner.png';
 
@@ -11,16 +12,16 @@ import { NavLink } from "react-router-dom";
 export const Home = () => {
   return (
     <div className="home-main">
-      <header>
+      <header className="home-header">
         <img className="logo" src={Banner} href='https://github.com/nicoluvas'></img>
         <nav>
           <ul className="home-navbar">
-            <li><a href='#'>Support</a></li>
-            <li><a href="#">Info</a></li>
-            <li><a href="https://github.com/nicoluvas/jsx-playground">Github</a></li>
+            <li className="home-il"><a href='#'>Support</a></li>
+            <li className="home-il"><a href="#">Info</a></li>
+            <li className="home-il"><a href="https://github.com/nicoluvas/jsx-playground">Github</a></li>
           </ul>
         </nav>
-        <a className="repo-btn" href="#"><button>Log out</button></a>
+        <a href="#"><button className="logout-btn">Log out</button></a>
       </header>
     </div>
   );
