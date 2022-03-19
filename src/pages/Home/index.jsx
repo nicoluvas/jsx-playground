@@ -1,5 +1,6 @@
 import "./home.css";
 /*import "../../assets/App.css";*/
+import { Link } from "react-router-dom";
 
 import Banner from '../../assets/Banner.png';
 
@@ -21,7 +22,9 @@ export const Home = () => {
             <li className="home-il"><a href="https://github.com/nicoluvas/jsx-playground">Github</a></li>
           </ul>
         </nav>
-        <a href="#"><button className="logout-btn">Log out</button></a>
+        <Link className="" to="../login">
+        <button className="logout-btn">Log out</button>
+        </Link>
       </header>
     </div>
   );
