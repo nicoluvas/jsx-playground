@@ -13,6 +13,7 @@ import { NavLink } from "react-router-dom";
 export const Home = () => {
   return (
     <div className="home-main">
+
       <header className="home-header">
         <img className="logo" src={Banner} href='https://github.com/nicoluvas'></img>
         <nav>
@@ -26,6 +27,10 @@ export const Home = () => {
         <button className="logout-btn">Log out</button>
         </Link>
       </header>
+
+    <>
+    sss
+    </>
     </div>
   );
 };
