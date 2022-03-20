@@ -13,6 +13,7 @@ import { NavLink } from "react-router-dom";
 export const Home = () => {
   return (
     <div className="home-main">
+    <div className="home-nav">
 
       <header className="home-header">
         <img className="logo" src={Banner} href='https://github.com/nicoluvas'></img>
@@ -28,9 +29,10 @@ export const Home = () => {
         </Link>
       </header>
 
-    <>
+    <p>
     sss
-    </>
+    </p>
+    </div>
     </div>
   );
 };
